@@ -10,11 +10,16 @@ body {
     background-color: #fff;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .wrapper {
     max-width: 1920px;
 }
 
-header {
+.header {
     width: 1920px;
     background-color: #67AEFC;
     padding: 0 375px;
@@ -24,4 +29,20 @@ header {
     width: 1170px;
     display: flex;
     justify-content: space-between;
+}
+
+.menu_item {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_list {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 38px;
+    list-style-type: none;
 }
